@@ -65,10 +65,9 @@
 					
 						<div class="fix-6-12">
 							<h1 class="huge ae-1 margin-bottom-2">Bite-Sized Brillance</h1>
-							<p class="hero ae-2 margin-bottom-3"><span class="opacity-8">Sign Up For The Daily Dose Newsletter.</span></p>
-
-							<form action="#" autocomplete="off" class="slides-form margin-bottom-3">
-								<input type="email" class="ae-2" name="email" placeholder="E-mail address"/>
+							<p class="hero ae-2 margin-bottom-3"><span class="opacity-8">Subscribe to The Daily Dose Newsletter for a Microdose of Knowledge.</span></p>
+							<form action="https://enlightenmedaily.us4.list-manage.com/subscribe/post?u=47cd7880319189a19819d5855&amp;id=aa10a9ad5e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate autocomplete="off" class="slides-form margin-bottom-3">
+								<!-- <input type="email" class="ae-2" name="email" placeholder="E-mail address"/> -->
 								<button type="submit" class="button blue gradient ae-2" name="submit">Sign Up</button>
 							</form>
 						</div>
