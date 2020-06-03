@@ -13,6 +13,10 @@
 .heading-div {
   margin-bottom: 15px;
 }
+
+.sign-button {
+  justify-self: right;
+}
 /* BLOG POST CSS */
 
 .content.post-page, .content.blog-page {
@@ -1653,7 +1657,7 @@ html:not(.mobile) .slide.video .background[style] {
   left: 0;
   height: 100%;
   width: 100%;
-  background: url("../assets/svg/video-icon.svg") no-repeat;
+  background: url("./assets/svg/video-icon-dark.svg") no-repeat;
   background-position: center center;
   transition: 0.5s;
 }

@@ -6,10 +6,13 @@
 			<div class="content">
 				<div class="container">
 					<div class="wrap">
-						<div class="heading-div">
+					<div class="heading-div">
 							<h1>The Daily Dose</h1>
 							<h3>Bringing You Bite-size Brilliance Everyday With the Three-Minute Classroom.</h3>
 						</div>
+						<form action="https://enlightenmedaily.us4.list-manage.com/subscribe/post?u=47cd7880319189a19819d5855&amp;id=aa10a9ad5e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate autocomplete="off" class="slides-form margin-bottom-3">
+							<button type="submit" class="button blue gradient ae-2" name="submit">Sign Up</button>
+						</form>
 						<div class="fix-12-12">
 							<ul class="flex left">
 							<?php 
