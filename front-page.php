@@ -8,11 +8,10 @@
 					<div class="wrap">
 					<div class="heading-div">
 							<h1>The Daily Dose</h1>
-							<h3>Bringing You Bite-size Brilliance Everyday With the Three-Minute Classroom.</h3>
+							<!-- <h3>Bringing You Bite-size Brilliance Everyday With the Three-Minute Classroom.</h3> -->
+							<h3><?php echo get_bloginfo('description') ?></h3>
 						</div>
-						<form action="https://enlightenmedaily.us4.list-manage.com/subscribe/post?u=47cd7880319189a19819d5855&amp;id=aa10a9ad5e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate autocomplete="off" class="slides-form margin-bottom-3">
-							<button type="submit" class="button blue gradient ae-2" name="submit">Sign Up</button>
-						</form>
+						<a href="https://cdn.forms-content.sg-form.com/278d9bdb-a668-11ea-a701-7ad71dacb7cb" target="_blank"><button type="submit" class="button blue gradient ae-2" name="submit">Sign Up</button></a>
 						<div class="fix-12-12">
 							<ul class="flex left">
 							<?php 
@@ -23,9 +22,9 @@
 									?>
 								<li class="col-6-12">
 									<p class="opacity-6 margin-bottom-2 ae-1"><?php the_date(); ?></p>
-									<h1 class="ae-1"><?php the_title(); ?></h1>
+									<a href="<?php echo the_permalink(); ?>"><h1 class="ae-1"><?php the_title(); ?></h1></a>
 									<div class="ae-2"><p class="opacity-8"><?php the_excerpt(); ?></p></div>
-									<!-- <a class="ae-3" href="<?php echo the_permalink(); ?>">Learn More &rarr;</a> -->
+									<a class="ae-3" href="<?php echo the_permalink(); ?>">Learn More &rarr;</a>
 								</li>
 								<li class="col-1-12">&nbsp;</li>
 								<li class="col-5-12 bottom">
@@ -69,10 +68,8 @@
 						<div class="fix-6-12">
 							<h1 class="huge ae-1 margin-bottom-2">Bite-Sized Brillance</h1>
 							<p class="hero ae-2 margin-bottom-3"><span class="opacity-8">Subscribe to The Daily Dose Newsletter for a Microdose of Knowledge.</span></p>
-							<form action="https://enlightenmedaily.us4.list-manage.com/subscribe/post?u=47cd7880319189a19819d5855&amp;id=aa10a9ad5e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate autocomplete="off" class="slides-form margin-bottom-3">
 								<!-- <input type="email" class="ae-2" name="email" placeholder="E-mail address"/> -->
-								<button type="submit" class="button blue gradient ae-2" name="submit">Sign Up</button>
-							</form>
+								<a href="https://cdn.forms-content.sg-form.com/278d9bdb-a668-11ea-a701-7ad71dacb7cb" target="_blank"><button type="submit" class="button blue gradient ae-2" name="submit">Sign Up</button></a>
 						</div>
 										
 					</div>

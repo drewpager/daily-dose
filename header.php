@@ -15,10 +15,7 @@
     $logo = wp_get_attachment_image_src($custom_logo_id);
   }
 ?>
-<!-- <div class="slides bodyWhite"> -->
-  <!-- img tag with src= php echo $logo[0]?> -->
-  <!-- <h1 class="h1">The Daily Dose</h1>
-</div> -->
+
 <body class="slides chain simplifiedMobile animated">
 		
 <!-- SVG Library -->
@@ -75,9 +72,6 @@
 </svg>
 
 <!-- Navigation -->
-<nav class="side pole">
-  <div class="navigation">
-    <ul>
-    </ul>
-  </div>
-</nav>
+<header class="header">
+    <a href="/"><img style="width: 50px;" src="https://res.cloudinary.com/drewpager/image/upload/v1591281330/daily-dose/brain_vax7rq.png"></a>
+</header>    

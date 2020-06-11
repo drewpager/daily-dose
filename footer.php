@@ -8,9 +8,9 @@
     </div>
     <div class="right">
       <ul class="menu crop">
-        <li><a href="http://facebook.com/designmodo" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
-        <li><a href="http://twitter.com/designmodo" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
-        <li><a href="http://instagram.com/designmodo" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
+        <li><a href="https://www.facebook.com/Daily-Dose-103121998097124" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
+        <!-- <li><a href="http://twitter.com/designmodo" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+        <li><a href="http://instagram.com/designmodo" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li> -->
       </ul>
     </div>
   </div>
