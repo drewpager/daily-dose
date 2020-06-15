@@ -19,17 +19,16 @@
 <?php edit_post_link(); ?>
  
 <?php endwhile; ?>
- 
 <?php
-if ( get_next_posts_link() ) {
-next_posts_link();
-}
-?>
-<?php
-if ( get_previous_posts_link() ) {
-previous_posts_link();
-}
-?>
+    if ( get_next_posts_link() ) {
+    next_posts_link();
+    }
+    ?>
+    <?php
+    if ( get_previous_posts_link() ) {
+    previous_posts_link();
+    }
+    ?>
  
 <?php else: ?>
  

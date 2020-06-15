@@ -48,7 +48,14 @@
 									</div>
 								</li>
 								<?php 
-									endwhile;
+									endwhile; ?>
+									<nav>
+										<ul style="align-content: center;">
+											<?php next_posts_link('<button type="submit" class="button blue gradient ae-2" name="submit">← Older</button>')?>
+											<?php previous_posts_link('<button type="submit" class="button blue gradient ae-2" name="submit">Newer →</button>')?>
+										</ul>
+									</nav>
+								<?php	
 								endif;
 								?>
 							</ul>
