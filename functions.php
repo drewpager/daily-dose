@@ -11,22 +11,7 @@ function emd_theme_support() {
 
 add_action('after_setup_theme', 'emd_theme_support');
 
-function sd_future_to_publish_only($new_status, $old_status, $post) {
-  if ( ('publish' === $new_status && 'future' === $old_status) ) {
-    global $wpdb;
-    $post_meta_table = $wpdb->prefix . "postmeta";
-    $wpdb->query($wpdb->prepare("DELETE FROM " . $post_meta_table . "
-    WHERE post_id = '%d'
-    AND meta_key LIKE '_oembed_%'
-    AND meta_value LIKE '{{unknown}}';",
-    absint( $post->ID )
-    ) );
-  }
-}
-
-add_action('transition_post_status', 'sd_future_to_publish_only', 10, 3)
-
-function emd_register_styles(){
+function emd_register_styles() {
   $version = wp_get_theme()->get( 'Version' );
   wp_enqueue_style('emd-styles', get_template_directory_uri() . '/style.css', array(), $version, 'all');
   wp_enqueue_style('emd-font', "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700|Material+Icons", array());
@@ -44,5 +29,20 @@ function emd_register_scripts(){
 }
 
 add_action('wp_enqueue_scripts', 'emd_register_scripts');
+
+function sd_future_to_publish_only($new_status, $old_status, $post) {
+  if ( ('publish' === $new_status && 'future' === $old_status) ) {
+    global $wpdb;
+    $post_meta_table = $wpdb->prefix . "postmeta";
+    $wpdb->query($wpdb->prepare("DELETE FROM " . $post_meta_table . "
+    WHERE post_id = '%d'
+    AND meta_key LIKE '_oembed_%'
+    AND meta_value LIKE '{{unknown}}';",
+    absint( $post->ID )
+    ) );
+  }
+}
+
+add_action('transition_post_status', 'sd_future_to_publish_only', 10, 3);
 
 ?>
