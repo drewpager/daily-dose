@@ -7,7 +7,7 @@
 				<div class="container">
 					<div class="wrap">
 					<div class="heading-div">
-							<h1>The Daily Dose</h1>
+							<h1><b>The Daily Dose</b></h1>
 							<!-- <h3>Bringing You Bite-size Brilliance Everyday With the Three-Minute Classroom.</h3> -->
 							<h3><?php echo get_bloginfo('description') ?></h3>
 						</div>
@@ -22,9 +22,11 @@
 									?>
 								<li class="col-6-12">
 									<p class="opacity-6 margin-bottom-2 ae-1"><?php the_date(); ?></p>
-									<a href="<?php echo the_permalink(); ?>"><h1 class="ae-1"><?php the_title(); ?></h1></a>
+									<!-- <a href="<?php echo the_permalink(); ?>"> -->
+										<h1 class="ae-1"><?php the_title(); ?></h1>
+									<!-- </a> -->
 									<div class="ae-2"><p class="opacity-8"><?php the_excerpt(); ?></p></div>
-									<a class="ae-3" href="<?php echo the_permalink(); ?>">Learn More &rarr;</a>
+									<!-- <a class="ae-3" href="<?php echo the_permalink(); ?>">Learn More &rarr;</a> -->
 								</li>
 								<li class="col-1-12">&nbsp;</li>
 								<li class="col-5-12 bottom">
