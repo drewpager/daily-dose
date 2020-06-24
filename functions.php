@@ -3,6 +3,7 @@
 function emd_theme_support() {
   add_theme_support('title-tag');
   add_theme_support('post-thumbnails');
+  add_theme_support( 'responsive-embeds' );
   add_theme_support( 'custom-logo', array(
     'height' => 480,
     'width'  => 720,
@@ -30,11 +31,11 @@ function emd_register_scripts(){
 
 add_action('wp_enqueue_scripts', 'emd_register_scripts');
 
-function sd_future_to_publish_only($new_status, $old_status, $post) {
-  if ( ('publish' === $new_status && 'future' === $old_status) ) {
+function sd_future_to_publish_only( $new_status, $old_status, $post ) {
+  if ( ('publish' === $new_status && 'publish' !== $old_status) ) {
     global $wpdb;
     $post_meta_table = $wpdb->prefix . "postmeta";
-    $wpdb->query($wpdb->prepare("DELETE FROM " . $post_meta_table . "
+    $wpdb->query( $wpdb->prepare("DELETE FROM " . $post_meta_table . "
     WHERE post_id = '%d'
     AND meta_key LIKE '_oembed_%'
     AND meta_value LIKE '{{unknown}}';",
