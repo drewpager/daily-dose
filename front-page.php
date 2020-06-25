@@ -11,7 +11,7 @@
 							<!-- <h3>Bringing You Bite-size Brilliance Everyday With the Three-Minute Classroom.</h3> -->
 							<h3><?php echo get_bloginfo('description') ?></h3>
 						</div>
-						<a href="https://cdn.forms-content.sg-form.com/278d9bdb-a668-11ea-a701-7ad71dacb7cb" target="_blank"><button type="submit" class="button blue gradient ae-2" name="submit">Sign Up</button></a>
+						<a href="https://cdn.forms-content.sg-form.com/278d9bdb-a668-11ea-a701-7ad71dacb7cb" rel="noreferrer" target="_blank"><button type="submit" class="button blue gradient ae-2" name="submit">Sign Up</button></a>
 						<div class="fix-12-12">
 							<ul class="flex left">
 							<?php 
@@ -78,7 +78,7 @@
 							<h1 class="huge ae-1 margin-bottom-2">Bite-Sized Brillance</h1>
 							<p class="hero ae-2 margin-bottom-3"><span class="opacity-8">Subscribe to The Daily Dose Newsletter for a Microdose of Knowledge.</span></p>
 								<!-- <input type="email" class="ae-2" name="email" placeholder="E-mail address"/> -->
-								<a href="https://cdn.forms-content.sg-form.com/278d9bdb-a668-11ea-a701-7ad71dacb7cb" target="_blank"><button type="submit" class="button blue gradient ae-2" name="submit">Sign Up</button></a>
+								<a href="https://cdn.forms-content.sg-form.com/278d9bdb-a668-11ea-a701-7ad71dacb7cb" rel="noreferrer" target="_blank"><button type="submit" class="button blue gradient ae-2" name="submit">Sign Up</button></a>
 						</div>
 										
 					</div>
