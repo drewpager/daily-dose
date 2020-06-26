@@ -14,13 +14,70 @@
 						<a href="https://cdn.forms-content.sg-form.com/278d9bdb-a668-11ea-a701-7ad71dacb7cb" rel="noreferrer" target="_blank"><button type="submit" class="button blue gradient ae-2" name="submit">Sign Up</button></a>
 						<div class="fix-12-12">
 							<ul class="flex left">
-							<?php 
-									if ( have_posts() ) :
-										while ( have_posts() ) :
-											the_post();
-											$id = get_the_ID();
-									?>
-								<li class="col-6-12">
+
+							<?php $my_query = new WP_Query( 'posts_per_page=2' );
+								while ( $my_query->have_posts() ) : $my_query->the_post();
+								$do_not_duplicate[] = $post->ID; ?>
+
+									<li class="col-6-12">
+									<p class="opacity-6 margin-bottom-2 ae-1"><?php the_date(); ?></p>
+									<div class="popupTrigger margin-bottom-3 ae-2" data-popup-id="<?php echo $id ?>">
+										<h1 class="ae-1"><?php the_title(); ?></h1>
+									</div>
+									<div class="ae-2"><p class="opacity-8"><?php the_excerpt(); ?></p></div>
+									<!-- <a class="ae-3" href="<?php echo the_permalink(); ?>">Learn More &rarr;</a> -->
+								</li>
+								<li class="col-1-12">&nbsp;</li>
+								<li class="col-5-12 bottom">
+									<div class="videoThumbnail shadow rounded popupTrigger margin-bottom-3 ae-2" data-popup-id="<?php echo $id ?>">
+									<?php include(get_template_directory_uri() . "/assets/svg/video-icon-dark.svg")?>
+									<img src="<?php the_post_thumbnail(array(500, 300)); ?>" class="wide videoThumbnail" alt="Video Thumbnail"/>
+								</div>
+									<div class="popup autoplay" data-popup-id="<?php echo $id ?>">
+									<div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+										<div class="content">
+											<div class="container">
+												<div class="wrap">
+													<div class="fix-10-12">
+														<div class="embedVideo popupContent">
+															<?php the_content(); ?>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+
+								<?php endwhile; ?>
+
+									<li class="col-6-12">
+									<p class="opacity-6 margin-bottom-2 ae-1">Today's Sponsor</p>
+									<div class="popupTrigger margin-bottom-3 ae-2" data-popup-id="<?php echo $id ?>">
+										<h1 class="ae-1">Brought To You By</h1>
+									</div>
+									<div class="ae-2"><p class="opacity-8">We are able to provide free content to you every single day because of ads like this.</p></div>
+								</li>
+								<li class="col-1-12">&nbsp;</li>
+								<li class="col-5-12 bottom">
+								<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+									<!-- Daily Dose Ads -->
+									<ins class="adsbygoogle"
+											style="display:block"
+											data-ad-client="ca-pub-1041022037840931"
+											data-ad-slot="2103516715"
+											data-ad-format="auto"
+											data-full-width-responsive="true"></ins>
+									<script>
+											(adsbygoogle = window.adsbygoogle || []).push({});
+									</script>
+								</li>
+									
+								<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); 
+								if ( in_array( $post->ID, $do_not_duplicate ) ) continue; ?>
+									<!-- Do stuff... -->
+
+									<li class="col-6-12">
 									<p class="opacity-6 margin-bottom-2 ae-1"><?php the_date(); ?></p>
 									<div class="popupTrigger margin-bottom-3 ae-2" data-popup-id="<?php echo $id ?>">
 										<h1 class="ae-1"><?php the_title(); ?></h1>
@@ -49,8 +106,7 @@
 										</div>
 									</div>
 								</li>
-								<?php 
-									endwhile; ?>
+								<?php endwhile; ?>
 									<nav>
 										<ul style="align-content: center;">
 											<?php next_posts_link('<button type="submit" class="button blue gradient ae-2" name="submit">← Older</button>')?>
