@@ -15,7 +15,7 @@
 						<div class="fix-12-12">
 							<ul class="flex left">
 
-							<?php $my_query = new WP_Query( 'posts_per_page=2' );
+							<?php $my_query = new WP_Query( 'posts_per_page=1' );
 								while ( $my_query->have_posts() ) : $my_query->the_post();
 								$do_not_duplicate[] = $post->ID; ?>
 
@@ -53,9 +53,7 @@
 
 									<li class="col-6-12">
 									<p class="opacity-6 margin-bottom-2 ae-1">Today's Sponsor</p>
-									<div class="popupTrigger margin-bottom-3 ae-2" data-popup-id="<?php echo $id ?>">
-										<h1 class="ae-1">Brought To You By</h1>
-									</div>
+									<h1 class="ae-1">Brought To You By</h1>
 									<div class="ae-2"><p class="opacity-8">We are able to provide free content to you every single day because of ads like this.</p></div>
 								</li>
 								<li class="col-1-12">&nbsp;</li>
@@ -73,8 +71,13 @@
 									</script>
 								</li>
 									
-								<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); 
-								if ( in_array( $post->ID, $do_not_duplicate ) ) continue; ?>
+								 <?php 
+								 if ( have_posts() ) : while ( have_posts() ) : the_post(); 
+								 if ( in_array( $post->ID, $do_not_duplicate ) ) continue; 
+								 # query_posts( array( 'post__not_in' => $do_not_duplicate ) );
+								?> 
+							
+						
 									<!-- Do stuff... -->
 
 									<li class="col-6-12">
@@ -109,7 +112,7 @@
 								<?php endwhile; ?>
 									<nav>
 										<ul style="align-content: center;">
-											<?php next_posts_link('<button type="submit" class="button blue gradient ae-2" name="submit">← Older</button>')?>
+											<?php next_posts_link('<button type="submit" class="button blue gradient ae-2" name="submit">← More</button>')?>
 											<?php previous_posts_link('<button type="submit" class="button blue gradient ae-2" name="submit">Newer →</button>')?>
 										</ul>
 									</nav>
