@@ -22,9 +22,9 @@
 									?>
 								<li class="col-6-12">
 									<p class="opacity-6 margin-bottom-2 ae-1"><?php the_date(); ?></p>
-									<!-- <a href="<?php echo the_permalink(); ?>"> -->
+									<div class="popupTrigger margin-bottom-3 ae-2" data-popup-id="<?php echo $id ?>">
 										<h1 class="ae-1"><?php the_title(); ?></h1>
-									<!-- </a> -->
+									</div>
 									<div class="ae-2"><p class="opacity-8"><?php the_excerpt(); ?></p></div>
 									<!-- <a class="ae-3" href="<?php echo the_permalink(); ?>">Learn More &rarr;</a> -->
 								</li>
@@ -41,7 +41,7 @@
 												<div class="wrap">
 													<div class="fix-10-12">
 														<div class="embedVideo popupContent">
-															<?php the_content(); ?>
+															<?php the_content([0]); ?>
 														</div>
 													</div>
 												</div>
