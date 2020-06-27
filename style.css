@@ -10,6 +10,12 @@
 
 /* DREW CUSTOM */
 
+.sticky-button {
+  position: -webkit-sticky; 
+  position: sticky !important; 
+  top: 0;
+  padding: 10px;
+}
 .heading-div {
   margin-bottom: 15px;
 }
@@ -502,9 +508,9 @@ small .small {
   text-align: center;
   vertical-align: top;
   cursor: pointer;
-  overflow: hidden;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  /* overflow: hidden;
+  /* -webkit-backface-visibility: hidden;
+          backface-visibility: hidden; */
   letter-spacing: normal !important;
   position: relative;
   white-space: nowrap;
@@ -1497,7 +1503,7 @@ p.uppercase, .p.uppercase,
   display: table-cell;
   text-align: center;
   vertical-align: middle;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .container .wrap:not(.noSpaces), .container .wrap.spaceWrap,
 .container .wrap .spaceWrap {
