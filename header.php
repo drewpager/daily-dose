@@ -84,6 +84,4 @@
 </svg>
 
 <!-- Navigation -->
-<header class="header">
-    <a href="/"><img style="width: 50px;" src="https://res.cloudinary.com/drewpager/image/upload/v1591281330/daily-dose/brain_vax7rq.png"></a>
-</header>    
+   
