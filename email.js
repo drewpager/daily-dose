@@ -1,5 +1,5 @@
 const sgMail = require('@sendgrid/mail');
-sgMail.setApiKey('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');
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 const msg = {
   to: 'drew@siegemedia.com',

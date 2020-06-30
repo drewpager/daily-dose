@@ -23,6 +23,7 @@
 								<li class="col-6-12">
 									<p class="opacity-6 margin-bottom-2 ae-1"><?php the_date(); ?></p>
 									
+									<!-- Click the title to see single post -->
 									<a href="<?php echo the_permalink(); ?>">
 										<h1 class="ae-1"><?php the_title(); ?></h1>
 									</a>
