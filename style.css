@@ -10,10 +10,12 @@
 
 /* DREW CUSTOM */
 
-.sticky-button {
-  position: -webkit-sticky; 
-  position: sticky !important; 
-  top: 0;
+@media (min-width: 1025) {
+  .sticky-button {
+    position: -webkit-sticky; 
+    position: sticky !important; 
+    top: 0;
+  }
 }
 .heading-div {
   margin-bottom: 15px;
@@ -1434,6 +1436,18 @@ p.uppercase, .p.uppercase,
 }
 .content.scrollBar {
   overflow-y: auto;
+}
+body::-webkit-scrollbar {
+  width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
 }
 .windows .defaultScroll .content {
   overflow: auto;
