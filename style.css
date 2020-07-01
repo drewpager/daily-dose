@@ -1517,6 +1517,12 @@ body::-webkit-scrollbar-thumb {
   vertical-align: middle;
   /* overflow: hidden; */
 }
+.text-wrap {
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+  /* overflow: hidden; */
+}
 .container .wrap:not(.noSpaces), .container .wrap.spaceWrap,
 .container .wrap .spaceWrap {
   padding: 120px calc(8% + 15px);
