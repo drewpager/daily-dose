@@ -11,7 +11,7 @@
 							<!-- <h3>Bringing You Bite-size Brilliance Everyday With the Three-Minute Classroom.</h3> -->
 							<h3><?php echo get_bloginfo('description') ?></h3>
 						</div>
-						<a href="https://cdn.forms-content.sg-form.com/278d9bdb-a668-11ea-a701-7ad71dacb7cb" rel="noreferrer" target="_blank"><button type="submit" class="button blue gradient ae-2" name="submit">Sign Up</button></a>
+						<a href="https://cdn.forms-content.sg-form.com/278d9bdb-a668-11ea-a701-7ad71dacb7cb" rel="noreferrer" target="_blank"><button type="submit" class="sticky-button button blue gradient ae-2" name="submit">Sign Up</button></a>
 						<div class="fix-12-12">
 							<ul class="flex left">
 
@@ -82,9 +82,17 @@
 
 									<li class="col-6-12">
 									<p class="opacity-6 margin-bottom-2 ae-1"><?php the_date(); ?></p>
-									<div class="popupTrigger margin-bottom-3 ae-2" data-popup-id="<?php echo $id ?>">
+									
+									<!-- Click the title to see single post -->
+									<a href="<?php echo the_permalink(); ?>">
 										<h1 class="ae-1"><?php the_title(); ?></h1>
-									</div>
+									</a>
+
+									<!-- Click the title to see the video -->
+									<!-- <div class="popupTrigger margin-bottom-3 ae-2" data-popup-id="<?php echo $id ?>">
+										<h1 class="ae-1"><?php the_title(); ?></h1>
+									</div> -->
+
 									<div class="ae-2"><p class="opacity-8"><?php the_excerpt(); ?></p></div>
 									<!-- <a class="ae-3" href="<?php echo the_permalink(); ?>">Learn More &rarr;</a> -->
 								</li>
@@ -101,7 +109,7 @@
 												<div class="wrap">
 													<div class="fix-10-12">
 														<div class="embedVideo popupContent">
-															<?php the_content([0]); ?>
+															<?php the_content(); ?>
 														</div>
 													</div>
 												</div>
@@ -149,6 +157,3 @@
 		<?php 
 			get_footer();
 		?>
-         
-
-

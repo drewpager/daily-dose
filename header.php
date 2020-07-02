@@ -20,12 +20,12 @@
     wp_head();
   ?>
 </head>
-<?php 
-  if (function_exists('the_custom_logo')) {
-    $custom_logo_id = get_theme_mod('custom_logo');
-    $logo = wp_get_attachment_image_src($custom_logo_id);
-  }
-?>
+<!-- <?php 
+  #if (function_exists('the_custom_logo')) {
+    #$custom_logo_id = get_theme_mod('custom_logo');
+    #$logo = wp_get_attachment_image_src($custom_logo_id);
+  # }
+?> -->
 
 <body class="slides chain simplifiedMobile animated">
 		
@@ -83,6 +83,4 @@
 </svg>
 
 <!-- Navigation -->
-<header class="header">
-    <a href="/"><img style="width: 50px;" src="https://res.cloudinary.com/drewpager/image/upload/v1591281330/daily-dose/brain_vax7rq.png"></a>
-</header>    
+   
