@@ -49,7 +49,7 @@
 												<div class="wrap">
 													<div class="fix-10-12">
 														<div class="embedVideo popupContent">
-															<?php the_content([0]); ?>
+															<?php the_content(); ?>
 														</div>
 													</div>
 												</div>
