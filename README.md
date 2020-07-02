@@ -1,9 +1,5 @@
-# Blog Site Template
-This is a free blog site template based on Bootstrap 4.
-
-It has a left sidebar and is customizable via CSS variables (custom properties)
-
-Watch the entire creation of this template on scrimba here: or see the conversion of this tempalte to a WordPress theme here: 
+# Daily Dose Blog
+Get your daily dose of bite-sized brilliance with micro-documentary films delivered to your inbox Monday-Friday.
 
 
 ## Versions
