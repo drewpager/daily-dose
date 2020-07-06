@@ -12,9 +12,9 @@
             <div class="fix-6-12">
               <?php echo get_the_post_thumbnail( $post_id, array(500, 350)); ?>
               <h1><?php echo get_the_title(); ?></h1>
-              <div class="text-wrap">
+              <!-- <div class="text-wrap"> -->
                 <p><?php echo the_content(); ?></p>
-              </div>
+              <!-- </div> -->
             </div>
         </div>
       </div>

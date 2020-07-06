@@ -1517,12 +1517,16 @@ body::-webkit-scrollbar-thumb {
   vertical-align: middle;
   /* overflow: hidden; */
 }
-.text-wrap {
-  display: table-cell;
-  text-align: left;
-  vertical-align: middle;
-  /* overflow: hidden; */
+@media (min-width: 560px) {
+  .text-wrap {
+    display: inline-block;
+    text-align: left;
+    vertical-align: center;
+    overflow: hidden;
+    color: #12100E;
+  }
 }
+
 .container .wrap:not(.noSpaces), .container .wrap.spaceWrap,
 .container .wrap .spaceWrap {
   padding: 120px calc(8% + 15px);
