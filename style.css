@@ -1527,8 +1527,7 @@ body::-webkit-scrollbar-thumb {
     display: inline-block;
     text-align: left;
     vertical-align: center;
-    overflow: hidden;
-    color: #12100E;
+    overflow: auto;
   }
 }
 
