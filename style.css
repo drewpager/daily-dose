@@ -10,6 +10,14 @@
 
 /* DREW CUSTOM */
 
+@media (min-width: 950px) {
+  .sticky-page-button {
+    position: -webkit-sticky; 
+    position: sticky !important; 
+    top: 0;
+  }
+}
+
 @media (min-width: 1025px) {
   .sticky-button {
     position: -webkit-sticky; 
