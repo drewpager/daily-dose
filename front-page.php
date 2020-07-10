@@ -49,7 +49,7 @@
 												<div class="wrap">
 													<div class="fix-10-12">
 														<div class="embedVideo popupContent">
-															<?php the_content(); ?>
+															<?php the_field('custom_youtube_embed'); ?>
 														</div>
 													</div>
 												</div>
