@@ -77,7 +77,7 @@
 		</section>
 
 		<!-- call to action -->
-		<section class="slide fade-3 parallax">
+		<!-- <section>
 			<div class="content">
 				<div class="container">
 					<div class="wrap">
@@ -85,7 +85,7 @@
 						<div class="fix-6-12">
 							<h1 class="huge ae-1 margin-bottom-2">Bite-Sized Brillance</h1>
 							<p class="hero ae-2 margin-bottom-3"><span class="opacity-8">Subscribe to The Daily Dose Newsletter for a Microdose of Knowledge.</span></p>
-								<!-- <input type="email" class="ae-2" name="email" placeholder="E-mail address"/> -->
+								 <input type="email" class="ae-2" name="email" placeholder="E-mail address"/>
 								<a href="https://cdn.forms-content.sg-form.com/278d9bdb-a668-11ea-a701-7ad71dacb7cb" rel="noreferrer" target="_blank"><button type="submit" class="button blue gradient ae-2" name="submit">Sign Up</button></a>
 						</div>
 										
@@ -93,7 +93,7 @@
 				</div>
 			</div>
 			<div class="background" style="background-image:url(<?php echo get_template_directory_uri().'/assets/img/background/img-89.jpg'?>)"></div>
-		</section>
+		</section> -->
 	   
 		<?php 
 			get_footer();
