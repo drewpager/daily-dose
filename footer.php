@@ -1,5 +1,5 @@
 <!-- Panel Bottom #12 -->
-<nav class="panel bottom lastSlideOnly">
+<nav class="panel bottom">
   <div class="sections desktop">
     <div class="left">
       <ul class="menu uppercase">
