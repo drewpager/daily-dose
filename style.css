@@ -1418,22 +1418,24 @@ p.uppercase, .p.uppercase,
   width: 100%;
   height: 100%;
   z-index: 100;
-  -webkit-overflow-scrolling: touch;
+  -webkit-overflow-scrolling: auto;
 }
 .content.scrollBar {
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 body::-webkit-scrollbar {
   width: 1em;
 }
  
 body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
 }
  
 body::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
-  outline: 1px solid slategrey;
+  background-color: #FF9800;
+  outline: 1px solid #8f5806;
 }
 .windows .defaultScroll .content {
   overflow: auto;
