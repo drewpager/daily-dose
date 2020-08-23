@@ -46,4 +46,6 @@ function sd_future_to_publish_only( $new_status, $old_status, $post ) {
 
 add_action('transition_post_status', 'sd_future_to_publish_only', 10, 3);
 
+
 ?>
+

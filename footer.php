@@ -1,9 +1,9 @@
 <!-- Panel Bottom #12 -->
 <nav class="panel bottom">
-  <div class="sections desktop">
+  <div class="sections">
     <div class="left">
       <ul class="menu uppercase">
-        <li><a href="http://dailydosenow.com/privacy-policy">Privacy Policy</a></li>
+        <li><a href="http://dailydosenow.com/privacy-policy-2/">Privacy Policy</a></li>
       </ul>
     </div>
     <div class="right">
@@ -18,7 +18,7 @@
 </nav>
 
 <!-- Loading Progress Bar -->
-<div class="progress-bar blue"></div>
+<!-- <div class="progress-bar blue"></div> -->
 
 <?php 
 		wp_footer();
