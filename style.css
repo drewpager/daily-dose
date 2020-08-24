@@ -2070,6 +2070,9 @@ html.mobile .showForMobileInline {
   padding: 0 7px;
   opacity: 0.8;
 }
+
+/* Drew: Added text decoration to underline */
+
 .panel .sections .menu li a:hover {
   opacity: 1;
   text-decoration: underline;
