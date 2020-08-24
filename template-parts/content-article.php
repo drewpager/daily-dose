@@ -8,19 +8,6 @@
     <div class="content">
       <div class="container">
       <div class="wrap">
-      <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <ins class="adsbygoogle"
-            style="display:block"
-            data-ad-format="fluid"
-            data-ad-layout-key="-fb+5w+4e-db+86"
-            data-ad-client="ca-pub-1041022037840931"
-            data-ad-slot="3634908004"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script> -->
-
-        <!-- <div class="heading-div">
-        </div> -->
         <div class="fix-12-12">
             <div class="fix-6-12">
               <div class="text-wrap">
@@ -72,7 +59,6 @@
     </div>
   </div>
   <!-- <div class="background" style="background-image:url(<?php echo get_template_directory_uri().'/assets/img/background/img-73.jpg'?>)"></div> -->
-  <script type="text/javascript"> var infolinks_pid = 3279980; var infolinks_wsid = 0; </script> <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
 </section>
 <?php 
   get_footer();
