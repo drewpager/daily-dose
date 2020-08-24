@@ -1409,7 +1409,7 @@ p.uppercase, .p.uppercase,
 }
 
 .content {
-  overflow: hidden;
+  overflow: auto;
   position: absolute;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -2072,6 +2072,9 @@ html.mobile .showForMobileInline {
 }
 .panel .sections .menu li a:hover {
   opacity: 1;
+  text-decoration: underline;
+  text-underline-position: below;
+  color: #FF9800;
 }
 .panel .sections .menu.uppercase li {
   font-size: 12px;
