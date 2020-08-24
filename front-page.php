@@ -33,7 +33,7 @@
 							
 									<a class="" href="<?php echo the_permalink(); ?>">
 										<h1 class=""><?php the_title(); ?></h1>
-										<div class=""><p class="opacity-8"><?php the_excerpt(); ?></p><div class=""><a class="" href="<?php echo the_permalink(); ?>"><p> More →</p></a></div></div>
+										<div class=""><p class="opacity-8"><?php the_excerpt(); ?></p><div class=""><a class="" href="<?php echo the_permalink(); ?>"></a></div></div>
 									</a> 
 								</li>
 								<li class="col-1-12">&nbsp;</li>
