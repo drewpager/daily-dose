@@ -291,6 +291,9 @@ a.underline {
 a:hover {
   transition: 0.15s;
   opacity: 0.8;
+  text-decoration: underline;
+  text-underline-position: below;
+  color: #FF9800;
 }
 
 h1, .h1 {
@@ -2075,9 +2078,6 @@ html.mobile .showForMobileInline {
 
 .panel .sections .menu li a:hover {
   opacity: 1;
-  text-decoration: underline;
-  text-underline-position: below;
-  color: #FF9800;
 }
 .panel .sections .menu.uppercase li {
   font-size: 12px;
