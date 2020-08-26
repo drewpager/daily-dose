@@ -5073,7 +5073,7 @@ body {
 }
 
 .deepOrange {
-  background: #FF5722 !important;
+  background: #e65100 !important;
   color: #fff !important;
 }
 .deepOrange svg {
@@ -5081,18 +5081,18 @@ body {
 }
 
 .text-deepOrange {
-  color: #FF5722 !important;
+  color: #e65100  !important;
 }
 .text-deepOrange.button svg {
-  fill: #FF5722 !important;
+  fill: #e65100  !important;
 }
 
 .stroke.button.deepOrange {
-  color: #FF5722 !important;
-  border-color: #FF5722 !important;
+  color: #e65100  !important;
+  border-color: #e65100  !important;
 }
 .stroke.button.deepOrange svg {
-  fill: #FF5722 !important;
+  fill: #e65100  !important;
 }
 
 .brown {

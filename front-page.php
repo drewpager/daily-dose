@@ -19,7 +19,7 @@
 						<!-- NEW SIGN UP FORM-->
 						<form action="https://app.convertkit.com/forms/1591625/subscriptions" data-uid="18b4dc29eb" method="post" class="slides-form" style="margin-bottom: 10px;"> 
 							<input name="email_address" placeholder="Your email address" type="email" />
-							<button type="submit" data-element="submit" class="button orange gradient" name="submit">Sign Up</button>
+							<button type="submit" data-element="submit" class="button deepOrange gradient" name="submit">Sign Up</button>
 						</form>
 						<div class="fix-12-12">
 							<ul class="flex left">
@@ -122,8 +122,8 @@
 								<?php endwhile; ?>
 									<nav>
 										<ul style="align-content: center;">
-											<?php next_posts_link('<button type="submit" class="button orange gradient" name="submit" rel="next">← More</button>')?>
-											<?php previous_posts_link('<button type="submit" class="button orange gradient" name="submit" rel="prev">Newer →</button>')?>
+											<?php next_posts_link('<button type="submit" class="button deepOrange gradient" name="submit" rel="next">← More</button>')?>
+											<?php previous_posts_link('<button type="submit" class="button deepOrange gradient" name="submit" rel="prev">Newer →</button>')?>
 										</ul>
 									</nav>
 								<?php	
