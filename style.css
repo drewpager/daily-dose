@@ -1955,7 +1955,7 @@ html.mobile .showForMobileInline {
 }
 .panel.bottom {
   bottom: 0;
-  position: absolute !important;
+  position: relative !important;
 }
 .panel.white {
   background: rgba(255, 255, 255, 0.975) !important;
@@ -1970,11 +1970,11 @@ html.mobile .showForMobileInline {
           transform: translate3d(0, -100%, 0);
   opacity: 0;
 }
-/* .animated .panel.bottom, .animateOnEvent .panel.bottom, .hidePanel-bottom .panel.bottom.hideOnScroll, .slides:not(.lastSlide) .panel.bottom.lastSlideOnly, .slides:not(.firstSlide) .panel.bottom.firstSlideOnly, .slides:not(.firstSlide):not(.lastSlide) .panel.bottom.firstAndLastSlidesOnly, .slides.lastSlide .panel.bottom.exceptLastSlide, .slides.firstSlide .panel.bottom.exceptFirstSlide {
+.animated .panel.bottom, .animateOnEvent .panel.bottom, .hidePanel-bottom .panel.bottom.hideOnScroll, .slides:not(.lastSlide) .panel.bottom.lastSlideOnly, .slides:not(.firstSlide) .panel.bottom.firstSlideOnly, .slides:not(.firstSlide):not(.lastSlide) .panel.bottom.firstAndLastSlidesOnly, .slides.lastSlide .panel.bottom.exceptLastSlide, .slides.firstSlide .panel.bottom.exceptFirstSlide {
   -webkit-transform: translate3d(0, 100%, 0);
           transform: translate3d(0, 100%, 0);
   opacity: 0;
-} */
+}
 .page-loaded .animated .panel, .page-loaded .animateOnEvent .panel {
   transition: opacity 0.5s, padding 0.5s, -webkit-transform 0.5s;
   transition: transform 0.5s, opacity 0.5s, padding 0.5s;
