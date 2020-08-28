@@ -4237,11 +4237,11 @@ html.mobile .showForMobileInline {
 .scroll .content
 .mobile .simplifiedMobile .content {
   -webkit-overflow-scrolling: touch;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .scroll .wrap {
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .scroll .slide,
