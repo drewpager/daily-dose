@@ -217,7 +217,7 @@ html {
 html {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: scroll;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -1389,7 +1389,7 @@ p.uppercase, .p.uppercase,
   background: #ffffff;
   color: #000;
   z-index: 10;
-  overflow: hidden;
+  overflow: scroll;
 }
 .slide.active {
   -webkit-transform-style: preserve-3d;
@@ -1409,7 +1409,7 @@ p.uppercase, .p.uppercase,
 }
 
 .content {
-  overflow: hidden;
+  overflow: scroll;
   position: absolute;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -1504,7 +1504,7 @@ body::-webkit-scrollbar-thumb {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
-  overflow: hidden;
+  overflow: scroll;
 }
 @media (min-width: 560px) {
   .text-wrap {
