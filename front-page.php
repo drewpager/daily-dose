@@ -67,23 +67,12 @@
 								</li>
 								<li class="col-1-12">&nbsp;</li>
 								<li class="col-5-12 bottom" style="padding-bottom: 15px;">
-								<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
-									<!-- Daily Dose Ads -->
-									<!-- <ins class="adsbygoogle"
-											style="display:inline-block;width:436px;height:300px;border-radius: 3px;"
-											data-ad-client="ca-pub-1041022037840931"
-											data-ad-slot="2103516715"></ins>
-									<script>
-											(adsbygoogle = window.adsbygoogle || []).push({});
-									</script> -->
 									<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 									<!-- Daily Dose Ads -->
 									<ins class="adsbygoogle"
-											style="display:block"
+											style="display:inline-block;width:435px;height:300px"
 											data-ad-client="ca-pub-1041022037840931"
-											data-ad-slot="2103516715"
-											data-ad-format="auto"
-											data-full-width-responsive="true"></ins>
+											data-ad-slot="2103516715"></ins>
 									<script>
 											(adsbygoogle = window.adsbygoogle || []).push({});
 									</script>
