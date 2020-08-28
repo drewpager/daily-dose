@@ -1521,7 +1521,7 @@ body::-webkit-scrollbar-thumb {
   padding-bottom: 50px;
 }
 .container .wrap .overflowHidden {
-  overflow: hidden;
+  overflow: scroll;
 }
 .container .wrap * {
   -webkit-user-select: text;
