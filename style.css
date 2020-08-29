@@ -217,7 +217,7 @@ html {
 html {
   margin: 0;
   padding: 0;
-  overflow: scroll;
+  overflow: hidden;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -1389,7 +1389,7 @@ p.uppercase, .p.uppercase,
   background: #ffffff;
   color: #000;
   z-index: 10;
-  overflow: scroll;
+  overflow: hidden;
 }
 .slide.active {
   -webkit-transform-style: preserve-3d;
@@ -1409,7 +1409,7 @@ p.uppercase, .p.uppercase,
 }
 
 .content {
-  overflow: scroll;
+  overflow: auto;
   position: absolute;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -1504,7 +1504,7 @@ body::-webkit-scrollbar-thumb {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
-  overflow: scroll;
+  overflow: hidden;
 }
 @media (min-width: 560px) {
   .text-wrap {
@@ -1521,7 +1521,7 @@ body::-webkit-scrollbar-thumb {
   padding-bottom: 50px;
 }
 .container .wrap .overflowHidden {
-  overflow: scroll;
+  overflow: hidden;
 }
 .container .wrap * {
   -webkit-user-select: text;
@@ -1955,7 +1955,7 @@ html.mobile .showForMobileInline {
 }
 .panel.bottom {
   bottom: 0;
-  position: relative !important;
+  position: absolute !important;
 }
 .panel.white {
   background: rgba(255, 255, 255, 0.975) !important;
@@ -4236,12 +4236,12 @@ html.mobile .showForMobileInline {
 
 .scroll .content
 .mobile .simplifiedMobile .content {
-  -webkit-overflow-scrolling: touch;
-  overflow: scroll;
+  -webkit-overflow-scrolling: initial;
+  overflow: hidden;
 }
 
 .scroll .wrap {
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .scroll .slide,
