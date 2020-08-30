@@ -266,7 +266,7 @@ img.rounded {
   background: #fff;
 }
 
-/* .slides.desktopSwipe {
+.slides.desktopSwipe {
   cursor: -webkit-grab;
 }
 
@@ -276,7 +276,7 @@ img.rounded {
 
 .slides.desktopSwipe .slide .container .wrap {
   cursor: inherit;
-} */
+}
 
 /* typography */
 a {
