@@ -242,7 +242,8 @@ html.scrollable body {
 
 img {
   width: 100%;
-  display: inline-block;
+  display: block; /* Fix: 9/7/20 change back to inline-block */
+  width: auto;
 }
 img.round {
   border-radius: 999px;
@@ -7497,7 +7498,7 @@ p.remind-43 {
 }
 
 .wide {
-  height: 50%;
+  height: auto; /* Fix: 9/7/20 back to 50% */
   width: 100% !important;
 }
 
