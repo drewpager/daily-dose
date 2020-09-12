@@ -243,7 +243,7 @@ html.scrollable body {
 img {
   width: 100%;
   display: block;
-  width: auto;
+  height: auto;
 }
 img.round {
   border-radius: 999px;
