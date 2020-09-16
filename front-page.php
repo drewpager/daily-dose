@@ -40,7 +40,7 @@
 								<li class="col-5-12 bottom">
 									<div class="videoThumbnail shadow rounded popupTrigger margin-bottom-3" data-popup-id="<?php echo $id ?>">
 									<!-- <?php include(get_template_directory_uri() . "/assets/svg/video-icon-dark.svg")?> -->
-									<img src="<?php echo the_post_thumbnail(array(500, 300)); ?>" class="videoThumbnail" alt="Video Thumbnail"/>
+										<?php the_post_thumbnail(array(500, 300), array('class' => 'videoThumbnail') ); ?> 
 								</div>
 									<div class="popup autoplay" data-popup-id="<?php echo $id ?>">
 									<div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
