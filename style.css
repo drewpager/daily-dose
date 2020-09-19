@@ -1506,6 +1506,7 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
   vertical-align: middle;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 @media (min-width: 560px) {
   .text-wrap {
