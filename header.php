@@ -4,11 +4,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover">
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <script data-ad-client="ca-pub-1041022037840931" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script defer data-ad-client="ca-pub-1041022037840931" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169656354-1"></script>
-<script>
+<script defer async src="https://www.googletagmanager.com/gtag/js?id=UA-169656354-1"></script>
+<script async>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -17,7 +17,7 @@
 </script>
 
 <!-- Facebook Pixel Code -->
-<script>
+<script async>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
