@@ -1,7 +1,7 @@
 <?php 
 	get_header();
 ?> 
-<script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer src="https://f.convertkit.com/ckjs/ck.5.js"></script>
 <script async data-uid="0d23da7839" src="https://successful-writer-7375.ck.page/0d23da7839/index.js"></script>
 <!-- Main Content -->
   <section class="slide">
@@ -15,7 +15,7 @@
               <h1 style="text-align: center;"><?php echo get_the_title(); ?></h1>
               <div class="videoThumbnail shadow rounded popupTrigger margin-bottom-3" data-popup-id="<?php echo $id ?>">
 									<!-- <?php include(get_template_directory_uri() . "/assets/svg/video-icon-dark.svg")?> -->
-									<?php the_post_thumbnail(array(500, 300), array('class' => 'videoThumbnail') ); ?> 
+									<?php the_post_thumbnail(array(500, 300) ); ?> 
 								</div>
 									<div class="popup" data-popup-id="<?php echo $id ?>">
 									<div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
@@ -38,7 +38,7 @@
                            data-ad-format="fluid"
                            data-ad-client="ca-pub-1041022037840931"
                            data-ad-slot="2075092942"></ins>
-                      <script>
+                      <script async>
                            (adsbygoogle = window.adsbygoogle || []).push({});
                       </script>
                 <?php echo the_content(); ?></p>
@@ -49,7 +49,7 @@
                            data-ad-format="fluid"
                            data-ad-client="ca-pub-1041022037840931"
                            data-ad-slot="2075092942"></ins>
-                      <script>
+                      <script async>
                            (adsbygoogle = window.adsbygoogle || []).push({});
                       </script>
               </div>

@@ -2,8 +2,7 @@
 	get_header();
 ?> 
 
-	<script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
-	<!-- <script async data-uid="29e57523df" src="https://successful-writer-7375.ck.page/29e57523df/index.js"></script> -->
+	<script defer src="https://f.convertkit.com/ckjs/ck.5.js"></script>
 		<!-- Main Content -->
 		<section class="slide">
 			<div class="content">
@@ -39,8 +38,7 @@
 								<li class="col-1-12">&nbsp;</li>
 								<li class="col-5-12 bottom">
 									<div class="videoThumbnail shadow rounded popupTrigger margin-bottom-3" data-popup-id="<?php echo $id ?>">
-									<!-- <?php include(get_template_directory_uri() . "/assets/svg/video-icon-dark.svg")?> -->
-										<?php the_post_thumbnail(array(500, 300), array('class' => 'videoThumbnail') ); ?> 
+										<?php the_post_thumbnail(array(500, 300) ); ?> 
 								</div>
 									<div class="popup autoplay" data-popup-id="<?php echo $id ?>">
 									<div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
@@ -73,7 +71,7 @@
 											style="display:inline-block;width:435px;height:300px"
 											data-ad-client="ca-pub-1041022037840931"
 											data-ad-slot="2103516715"></ins>
-									<script>
+									<script async>
 											(adsbygoogle = window.adsbygoogle || []).push({});
 									</script>
 								</li>
@@ -100,10 +98,8 @@
 								<li class="col-1-12">&nbsp;</li>
 								<li class="col-5-12 bottom">
 									<div class="videoThumbnail shadow rounded popupTrigger margin-bottom-3" data-popup-id="<?php echo $id ?>">
-									<!-- <?php include(get_template_directory_uri() . "/assets/svg/video-icon-dark.svg")?> -->
-									<img src="<?php the_post_thumbnail(array(500, 300)); ?>"  alt="Video Thumbnail"/>
-									<!-- REMOVED ^ class="wide videoThumbnail" -->
-								</div>
+										<?php the_post_thumbnail(array(500, 300) ); ?> 
+									</div>
 									<div class="popup autoplay" data-popup-id="<?php echo $id ?>">
 									<div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
 										<div class="content">
