@@ -17,7 +17,7 @@
 									<!-- <?php include(get_template_directory_uri() . "/assets/svg/video-icon-dark.svg")?> -->
 									<?php the_post_thumbnail(array(500, 300) ); ?> 
 								</div>
-									<div class="popup" data-popup-id="<?php echo $id ?>">
+									<div class="popup autoplay" data-popup-id="<?php echo $id ?>">
 									<div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
 										<div class="content">
 											<div class="container">
