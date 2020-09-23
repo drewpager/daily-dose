@@ -1435,12 +1435,13 @@ body::-webkit-scrollbar-track {
 }
  
 body::-webkit-scrollbar-thumb {
-  background-color: #FF9800;
-  outline: 1px solid #8f5806;
+  background-color: #e65100;
+  outline: 1px solid #a73c03;
 }
 .windows .defaultScroll .content {
   overflow: auto;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 .mobile .content {
   overflow: auto;
