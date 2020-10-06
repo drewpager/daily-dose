@@ -41,6 +41,7 @@
                       <script async>
                            (adsbygoogle = window.adsbygoogle || []).push({});
                       </script>
+                      <br/>
                 <?php echo the_content(); ?></p>
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                       <ins class="adsbygoogle"
@@ -52,6 +53,7 @@
                       <script async>
                            (adsbygoogle = window.adsbygoogle || []).push({});
                       </script>
+                      <br/>
               </div>
             </div>
         </div>
