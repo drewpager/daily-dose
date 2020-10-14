@@ -50,22 +50,30 @@
 }
 
 .navbar {
-  margin: 20px;
-  max-height: 80px;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  /* grid-template-columns: 5rem 5rem auto 5rem 5rem; */
+  /* grid-gap: 2rem; */
+  width: 100%;
   text-align: center;
+  background-color: white;
+  border-bottom: solid 1px #e65100;
+  align-items: center;
 }
 
-.navbar li {
+.navbar ul li {
   display: inline-block;
-  margin:20px;
-  height: 35px;
-  text-transform: uppercase; 
+  padding: 5px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  /* height: 35px; */
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
 }
 
-.navbar a {
-  text-decoration: none;
-  color: #C6A3F4;
-}
 /* BLOG POST CSS */
 
 .content.post-page, .content.blog-page {
