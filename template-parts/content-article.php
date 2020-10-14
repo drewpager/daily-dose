@@ -3,6 +3,8 @@
 ?> 
 <script defer src="https://f.convertkit.com/ckjs/ck.5.js"></script>
 <script async data-uid="0d23da7839" src="https://successful-writer-7375.ck.page/0d23da7839/index.js"></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0" nonce="KY89t0HO"></script>
 <!-- Main Content -->
   <section class="slide">
     <div class="content">
@@ -31,6 +33,7 @@
 											</div>
 										</div>
                   </div>
+                  <div class="fb-share-button" data-href="<?php echo get_permalink() ?>" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdailydosenow.com%2Fstealing-mona-lisa%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
                   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                       <ins class="adsbygoogle"
                            style="display:block; text-align:center;"
