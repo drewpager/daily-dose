@@ -16,22 +16,22 @@
   margin: 0;
 }
 
+.sticky-page-button {
+  position: -webkit-sticky; 
+  position: sticky !important; 
+  top: 0;
+  z-index: 1;
+}
 
 @media (min-width: 950px) {
   .sticky-page-button {
     position: -webkit-sticky; 
     position: sticky !important; 
     top: 0;
+    z-index: 1;
   }
 }
 
-@media (min-width: 1025px) {
-  .sticky-button {
-    position: -webkit-sticky; 
-    position: sticky !important; 
-    top: 0;
-  }
-}
 .heading-div {
   margin-bottom: 15px;
 }
@@ -85,7 +85,7 @@
 
 .email-capture {
   position: -webkit-sticky;
-  position: sticky;
+  position: sticky !important;
   top: 0;
 }
 
@@ -2560,7 +2560,7 @@ html.mobile .showForMobileInline {
   padding: 14px;
   font-size: 0;
   opacity: 0.5;
-  z-index: 200;
+  z-index: 300;
   transition: 0.25s;
   margin: 0;
   -webkit-transform: translate3d(0, 0, 0);
