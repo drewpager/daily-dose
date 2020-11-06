@@ -1,6 +1,6 @@
 <!-- Panel Bottom #12 -->
 
-<nav class="panel bottom">
+<!-- <nav class="panel bottom">
   <div class="sections">
     <div class="left">
       <ul class="menu uppercase">
@@ -15,7 +15,7 @@
       </ul>
     </div>
   </div>
-</nav> 
+</nav>  -->
 
 <!-- Loading Progress Bar -->
 <!-- <div class="progress-bar blue"></div>
