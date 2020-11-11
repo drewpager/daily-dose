@@ -10,10 +10,26 @@
 
 /* DREW CUSTOM */
 
+:root {
+  --orange: #e65100;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+.next-post {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50px 1fr;
+  grid-gap: 0;
+  border: 1px solid var(--orange);
+  border-radius: 3px;
+  margin: 5px;
+  padding: 8px;
 }
 
 .sticky-page-button {

@@ -58,12 +58,20 @@
                       </script>
                       <br/>
               </div>
+              <div class="next-post">
+                <h4>Previous</h4>
+                <h4>Next</h4>
+                <p><?php previous_post_link(); ?></p>
+                <?php if (!get_next_posts_link()) { ?>
+                  <!-- <p><?php next_post_link(); ?></p> -->
+                  <a href="https://subscribe.dailydosenow.com" rel="noreferrer" target="_blank"><button type="submit" style="margin-top: 10px; right: 0;" class="button deepOrange gradient" name="submit">Sign Up</button></a>
+                <?php } ?>
+              </div>
             </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- <div class="background" style="background-image:url(<?php echo get_template_directory_uri().'/assets/img/background/img-73.jpg'?>)"></div> -->
 </section>
 <?php 
   get_footer();
