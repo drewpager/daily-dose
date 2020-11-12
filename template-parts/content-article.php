@@ -33,7 +33,11 @@
 											</div>
 										</div>
                   </div>
-                  <div class="fb-share-button" data-href="<?php echo get_permalink() ?>" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdailydosenow.com%2Fstealing-mona-lisa%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+                  <div class="share-buttons"> 
+                    <div class="fb-share-button" data-href="<?php echo get_permalink() ?>" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdailydosenow.com%2Fstealing-mona-lisa%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+                    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="<?php echo get_the_title() ?>" data-url="<?php echo get_permalink()?>" data-via="TheDailyDose18" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <!-- <a class="email-share" href="mailto:?subject=<?php get_the_title() ?>&amp;body=<?php get_the_permalink() ?>">✉ Email</a> -->
+                  </div>
                   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                       <ins class="adsbygoogle"
                            style="display:block; text-align:center;"
@@ -63,8 +67,8 @@
                 <h4>Next</h4>
                 <p><?php previous_post_link(); ?></p>
                 <?php if (!get_next_posts_link()) { ?>
-                  <!-- <p><?php next_post_link(); ?></p> -->
-                  <a href="https://subscribe.dailydosenow.com" rel="noreferrer" target="_blank"><button type="submit" style="margin-top: 10px; right: 0;" class="button deepOrange gradient" name="submit">Sign Up</button></a>
+                  <p><?php next_post_link(); ?></p>
+                  <!-- <a href="https://subscribe.dailydosenow.com" rel="noreferrer" target="_blank"><button type="submit" style="margin-top: 10px; right: 0;" class="button deepOrange gradient" name="submit">Sign Up</button></a> -->
                 <?php } ?>
               </div>
             </div>

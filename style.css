@@ -32,6 +32,17 @@
   padding: 8px;
 }
 
+.share-buttons {
+  margin-bottom: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+.email-share {
+  background-color: var(--orange);
+}
+
 .sticky-page-button {
   position: -webkit-sticky; 
   position: sticky !important; 
