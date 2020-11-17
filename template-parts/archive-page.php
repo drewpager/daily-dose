@@ -14,23 +14,39 @@
 			</div>
     </header> 
       <!-- <div class="wrap"> -->
-        <div class="fix-12-12">
-            <div class="fix-6-12">
+        <!-- <div class="fix-12-12">
+            <div class="fix-6-12"> -->
               <div class="text-wrap">
-                <?php 
-                  if (have_posts() ): while ( have_posts() ): the_post();
+                <div class="archive-layout">
+                  <?php 
+                    if (have_posts() ): while ( have_posts() ): the_post();
+                    ?>
+                    <h1 class="archive-title"><?php echo get_the_title(); ?></h1>
+                    <ol class="archive-list">
+                      <li class="archive-item"><h4><?php wp_get_archives(array('type' => 'postbypost', 'show_post_count' => 'true' )); ?></h4></li>
+                    </ol>
+                  <?php endwhile; endif;
                   ?>
-                  <h1><?php echo get_the_title(); ?></h1>
-                  <ul>
-                    <li><h3><?php wp_get_archives(array('type' => 'postbypost', 'show_post_count' => 'true' )); ?></h3></li>
-                  </ul>
-                  
-                <?php endwhile; endif;
-                ?>
+                  <div class="right-bar">
+                    <h2>Brought to you by</h2>
+                    <br>
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- Daily Dose Sidebar -->
+                    <ins class="adsbygoogle"
+                        style="display:block"
+                        data-ad-client="ca-pub-1041022037840931"
+                        data-ad-slot="6095125167"
+                        data-ad-format="auto"
+                        data-full-width-responsive="true"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                  </div>  
+                </div>
               </div>
-            </div>
+            <!-- </div> -->
         <!-- </div> -->
-      </div>
+      <!-- </div> -->
     </div>
   </div>
   <!-- <div class="background" style="background-image:url(<?php echo get_template_directory_uri().'/assets/img/background/img-73.jpg'?>)"></div> -->
