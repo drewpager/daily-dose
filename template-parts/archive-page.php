@@ -28,19 +28,19 @@
                   <?php endwhile; endif;
                   ?>
                   <div class="right-bar">
-                    <h2>Brought to you by</h2>
-                    <br>
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                    <!-- Daily Dose Sidebar -->
-                    <ins class="adsbygoogle"
-                        style="display:block"
-                        data-ad-client="ca-pub-1041022037840931"
-                        data-ad-slot="6095125167"
-                        data-ad-format="auto"
-                        data-full-width-responsive="true"></ins>
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
+                    <div class="sidebar-ad">
+                      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                      <!-- Daily Dose Sidebar -->
+                      <ins class="adsbygoogle"
+                          style="display:block"
+                          data-ad-client="ca-pub-1041022037840931"
+                          data-ad-slot="6095125167"
+                          data-ad-format="auto"
+                          data-full-width-responsive="true"></ins>
+                      <script>
+                          (adsbygoogle = window.adsbygoogle || []).push({});
+                      </script>
+                    </div>
                   </div>  
                 </div>
               </div>
