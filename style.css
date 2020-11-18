@@ -58,7 +58,6 @@
   position: sticky !important; 
   position: -webkit-sticky; 
   top: 0;
-  border: 1px solid var(--orange)
 }
 
 @media (max-width: 1000px) {
@@ -338,7 +337,7 @@ img.rounded {
       -ms-hyphens: none;
           hyphens: none;
   background: #fff;
-  -webkit-font-smoothing: antialiased;
+  /* -webkit-font-smoothing: antialiased; */
 }
 
 .slides.bodyWhite {
@@ -1037,7 +1036,7 @@ p.uppercase, .p.uppercase,
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-  -webkit-font-smoothing: antialiased;
+  /* -webkit-font-smoothing: antialiased; */
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-feature-settings: 'liga';
