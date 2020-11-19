@@ -16,7 +16,7 @@
       <!-- <div class="wrap"> -->
         <!-- <div class="fix-12-12">
             <div class="fix-6-12"> -->
-              <div class="text-wrap">
+              <div>
                 <div class="archive-layout">
                   <?php 
                     if (have_posts() ): while ( have_posts() ): the_post();
@@ -28,6 +28,7 @@
                   <?php endwhile; endif;
                   ?>
                   <div class="right-bar">
+                    <h2>Advertisement</h2>
                     <div class="sidebar-ad">
                       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                       <!-- Daily Dose Sidebar -->

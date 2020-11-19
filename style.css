@@ -58,8 +58,6 @@
   line-height: 1.5;
   padding: 20px;
   margin-bottom: 10px;
-  overflow: hidden;
-  -webkit-overflow-scrolling: hidden;
 }
 
 .archive-title {
@@ -78,9 +76,9 @@
 }
 
 .sidebar-ad {
-  position: sticky !important; 
-  position: -webkit-sticky; 
-  top: 0;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 20px;
 }
 
 @media (max-width: 1000px) {
@@ -2651,6 +2649,7 @@ html.mobile .showForMobileInline {
 .popup .close:not(.button) svg {
   width: 30px;
   height: 30px;
+  z-index: 200;
   fill: var(--orange);
 }
 .popup .close.button {
