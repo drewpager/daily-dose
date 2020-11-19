@@ -51,6 +51,8 @@
   background: white;
 }
 
+/* Archives page */
+
 .archive-layout {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -107,6 +109,47 @@
   }
 }
 
+/* 404 page! */
+
+.fourohfour {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  height: auto;
+  color: #000;
+  margin: 20px;
+}
+
+.four-text {
+  grid-column: 1 / span 3;
+}
+
+.four-suggest {
+  grid-column: 1 / span 2;
+  border-radius: 5px;
+}
+
+.four-links {
+  grid-column: 3 / -1;
+  font-size: 20px;
+  align-self: center;
+}
+
+@media (max-width: 1000px) {
+  .four-suggest {
+    grid-column: 1 / -1;
+    border-radius: 5px;
+    order: 2;
+  }
+  
+  .four-links {
+    grid-column: 1 / -1;
+    font-size: 20px;
+    order: 1;
+  }
+}
+
+/*  */
 .heading-div {
   margin-bottom: 15px;
 }

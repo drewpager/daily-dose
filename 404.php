@@ -1,30 +1,40 @@
 <?php get_header(); ?>
    <div class="content">
 	  <div class="container">	
-		<header>
+		<header class="sticky-page-button">
 			<div>
-				<a href="/"><img style="width: 50px; margin: 10px; padding: 5px;" src="https://res.cloudinary.com/drewpager/image/upload/v1591281330/daily-dose/brain_vax7rq.png"></a>
-				<a href="https://subscribe.dailydosenow.com" rel="noreferrer" target="_blank"><button type="submit" style="margin-top: 10px; right: 0;" class="button deepOrange gradient" name="submit">Sign Up</button></a>
+        <a href="/"><img style="width: 50px; margin: 10px; padding: 5px;" src="https://res.cloudinary.com/drewpager/image/upload/v1596204837/daily-dose/daily-dose-floating-head_lspi3a.png"></a>
+        <a href="https://subscribe.dailydosenow.com" rel="noreferrer" target="_blank"><button type="submit" style="margin-top: 10px; right: 0;" class="button deepOrange gradient" name="submit">Sign Up</button></a>
 			</div>
-    </header>
-    <h2>Today on the Daily OOPS</h2>
-    <a href="https://dailydosenow.com/ben-franklin-virtues/"><button class="button blue gradient">Random Dose</button></a>
-    <a href="https://dailydosenow.com/"><button class="button blue gradient">Home</button></a>
-        <ul class="flex left">
-          <li class="col-6-12">
-            <p class="opacity-6 margin-bottom-2 ae-1">August 14, 2020</p>
-        
-            <a class="ae-3" href="https://dailydosenow.com/ben-franklin-virtues/">
-              <h1 class="ae-1">Ben Franklin’s Virtues</h1>
-              <div class="ae-2"><p class="opacity-8">The thirteen virtues of Ben Franklin, a founding father, inventor, and thinker, which established moral codes for people to live by.</p></div>
-            </a> 
-          </li>
-          <li class="col-1-12">&nbsp;</li>
-          <li class="col-5-12 bottom">
-            <div class="videoThumbnail shadow rounded popupTrigger margin-bottom-3 ae-2" data-popup-id="<?php echo $id ?>">
-              <a href="https://dailydosenow.com/ben-franklin-virtues/"><img src="https://dailydosenow.com/wp-content/uploads/2020/08/ben-franklin-virtues.jpg" class="wide videoThumbnail" alt="Video Thumbnail"/></a>
-            </div>
-          </li>
-        </ul>
+    </header> 
+    <div class="fourohfour">
+      <div class="four-text">
+        <h2>Today on the Daily Doh!</h2>
+        <p>That link does not wanna work... it's most likely our developer's fault, rest assured, justice will prevail.</p>   
+        <p>In the meantime, here are some links to pages that actually work:</p>
       </div>
+      <div class="four-suggest">
+        <ul>
+      <?php $my_query = new WP_Query( 'posts_per_page=1' );
+        while ( $my_query->have_posts() ) : $my_query->the_post();
+        $do_not_duplicate[] = $post->ID; ?>
+          <li class="col-5-12 bottom">
+          <a href="<?php echo the_permalink() ?>">
+            <?php the_post_thumbnail(array(500, 300) ); ?> 
+          </a>
+        </li>
+        <?php endwhile; ?>
+      </ul>
+      </div>
+      <div class="four-links">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="">YouTube Channel</a></li>
+          <li><a href="https://subscribe.dailydosenow.com/">Subscribe</a></li>
+        </ol>
+      </div>
+    </div>   
+  </div>
+</div>
 <?php get_footer(); ?>
