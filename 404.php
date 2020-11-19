@@ -30,7 +30,7 @@
         <ol>
           <li><a href="/">Home</a></li>
           <li><a href="/archives">Archives</a></li>
-          <li><a href="">YouTube Channel</a></li>
+          <li><a href="https://www.youtube.com/channel/UCuYZAnKoZYXAKKpsi_-90Tg?sub_confirmation=1">YouTube Channel</a></li>
           <li><a href="https://subscribe.dailydosenow.com/">Subscribe</a></li>
         </ol>
       </div>
