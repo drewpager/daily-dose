@@ -80,7 +80,7 @@
 .sidebar-ad {
   position: sticky;
   position: -webkit-sticky;
-  top: 30px;
+  top: 40px;
 }
 
 @media (max-width: 1000px) {
