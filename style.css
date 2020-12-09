@@ -1848,7 +1848,6 @@ html:not(.mobile) .slide.video .background[style] {
   width: 100%;
   background: url("https://res.cloudinary.com/drewpager/image/upload/v1591452922/daily-dose/video-icon-dark_c8yyhk.svg") no-repeat;
   background-position: center center;
-  transition: 0;
 }
 .videoThumbnail:not(.noTint):hover:after {
   background-color: rgba(0, 0, 0, 0.15);
