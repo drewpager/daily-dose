@@ -28,7 +28,6 @@
                   <?php endwhile; endif;
                   ?>
                   <div class="right-bar">
-                    <h2>Advertisement</h2>
                     <div class="sidebar-ad">
                       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                       <!-- Daily Dose Sidebar -->
@@ -41,6 +40,15 @@
                       <script>
                           (adsbygoogle = window.adsbygoogle || []).push({});
                       </script>
+                    </div>
+                    <div>
+                      <h3>Categories</h3>
+                      <ol>
+                        <li><?php wp_list_categories( array(
+                          'exclude' => array(1),
+                          'title_li' => ''
+                        )) ?></li>
+                      </ol>
                     </div>
                   </div>  
                 </div>
