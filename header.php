@@ -36,7 +36,7 @@ src="https://www.facebook.com/tr?id=1743121685939920&ev=PageView&noscript=1"
 
 <!-- Script to defer Youtube Embeds -->
 
-<script>
+<script async>
   function deferIframe() {
     var iFrameElem = document.getElementsByTagName("iframe");
     for (var i = 0; i < iFrameElem.length; i++) {
