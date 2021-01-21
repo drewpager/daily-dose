@@ -34,6 +34,23 @@ src="https://www.facebook.com/tr?id=1743121685939920&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
 
+<!-- Script to defer Youtube Embeds -->
+
+<script>
+  function deferIframe() {
+    var iFrameElem = document.getElementsByTagName("iframe");
+    for (var i = 0; i < iFrameElem.length; i++) {
+      if (iFrameElem[i].getAttribute('data-src')) {
+        iFrameElem[i].setAttribute('src', iFrameElem[i].getAttribute('data-src'))
+      }
+    }
+  }
+
+  window.onload = deferIframe;
+</script>
+
+<!-- End Script to defer Youtube Embeds -->
+
   <?php 
     wp_head();
   ?>
