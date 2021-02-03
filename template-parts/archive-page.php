@@ -22,9 +22,9 @@
                     if (have_posts() ): while ( have_posts() ): the_post();
                     ?>
                     <h1 class="archive-title"><?php echo get_the_title(); ?></h1>
-                    <ol class="archive-list">
+                    <ul class="archive-list">
                       <li class="archive-item"><h4><?php wp_get_archives(array('type' => 'postbypost', 'show_post_count' => 'true' )); ?></h4></li>
-                    </ol>
+                    </ul>
                   <?php endwhile; endif;
                   ?>
                   <div class="right-bar">
@@ -44,12 +44,12 @@
                     <br />
                     <div class="sidebar-ad">
                       <h3>Categories</h3>
-                      <ol>
+                      <ul>
                         <li><?php wp_list_categories( array(
                           'exclude' => array(1),
                           'title_li' => ''
                         )) ?></li>
-                      </ol>
+                      </ul>
                     </div>
                   </div>  
                 </div>
