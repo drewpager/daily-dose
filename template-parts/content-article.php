@@ -15,7 +15,7 @@
               <div class="text-wrap">
               <!-- <?php echo get_the_post_thumbnail( $post_id, array(500, 350)); ?> -->
               <h1 style="text-align: center;"><?php echo get_the_title(); ?></h1>
-              <div class="videoThumbnail shadow rounded popupTrigger margin-bottom-3" data-popup-id="<?php echo $id ?>">
+              <div class="videoThumbnail shadow rounded popupTrigger" data-popup-id="<?php echo $id ?>">
 									<!-- <?php include(get_template_directory_uri() . "/assets/svg/video-icon-dark.svg")?> -->
 									<?php the_post_thumbnail(array(500, 300) ); ?> 
 								</div>
