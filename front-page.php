@@ -73,7 +73,7 @@
 								<div class=""><p class="opacity-8">We are able to provide free content to you every single day because of ads like this.</p></div>
 							</li>
 							<li class="col-1-12">&nbsp;</li>
-							<li class="col-5-12 bottom" style="padding-bottom: 15px;">
+							<li class="col-5-12 git " style="padding-bottom: 15px;">
 								<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 								<!-- Daily Dose Ads -->
 								<ins class="adsbygoogle"
