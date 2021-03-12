@@ -317,6 +317,10 @@
   margin-bottom: 1rem;
 }
 
+.margin-bottom-2 {
+  margin-bottom: 2px;
+}
+
 /* CSS RESET */
 html,
 body,
