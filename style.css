@@ -2845,7 +2845,7 @@ html.mobile .showForMobileInline {
 .popup .close:not(.button) svg {
   width: 30px;
   height: 30px;
-  z-index: 200;
+  z-index: 1;
   fill: var(--orange);
 }
 .popup .close.button {
