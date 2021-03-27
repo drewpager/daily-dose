@@ -17,5 +17,7 @@
     "url": "https://github.com/drewpager/daily-dose/issues"
   },
   "homepage": "https://github.com/drewpager/daily-dose#readme",
-  "dependencies": {}
+  "dependencies": {
+    "@sendgrid/mail": "^7.1.1"
+  }
 }
